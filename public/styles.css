@@ -1,0 +1,15 @@
+/* Respaldo legible si el CDN de Tailwind no está disponible. */
+[hidden] { display: none !important; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f8fafc; color: #1e293b; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: wait; }
+input { box-sizing: border-box; }
+button:focus-visible, input:focus-visible { outline: 3px solid #0d9488; outline-offset: 3px; }
+th, td { padding: 16px 24px; vertical-align: top; }
+td { max-width: 480px; overflow-wrap: anywhere; }
+#login-view > section { padding: 3rem; }
+#login-form > div { margin-bottom: 1.5rem; }
+#login-form label { display: block; margin-bottom: .5rem; }
+#login-form input { padding: .75rem; width: 100%; }
+#login-form button { padding: .75rem; }
